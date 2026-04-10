@@ -7,7 +7,7 @@ import torch.utils.data
 from torchvision import datasets, transforms, models
 import cv2
 import json
-from utils import *
+from utils_data import *
 from data_pre import one_json_to_numpy,json_to_numpy
 from similarity import save_dismap
 from concurrent.futures import ThreadPoolExecutor
